@@ -8,7 +8,7 @@ import java.io.File;
 
 public class Utils {
 
-	public static final String ROOT_DIR = "/Users/yangxu/alink/data/";
+	public static final String ROOT_DIR = "D:\\IntelliJ IDEA 2022.1.3\\IdeaProject\\alink_tutorial_java\\src\\data\\";
 
 	public static String generateSchemaString(String[] colNames, String[] colTypes) {
 		int n = colNames.length;

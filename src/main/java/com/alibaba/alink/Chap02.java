@@ -47,8 +47,7 @@ public class Chap02 {
      */
     static void c_5_1() throws Exception {
         CsvSourceBatchOp source = new CsvSourceBatchOp()
-            .setFilePath("http://archive.ics.uci.edu/ml/machine-learning-databases"
-                + "/iris/iris.data")
+            .setFilePath("D:\\IntelliJ IDEA 2022.1.3\\IdeaProject\\alink_tutorial_java\\src\\data\\iris\\iris.data")
             .setSchemaStr("sepal_length double, sepal_width double, petal_length double, "
                 + "petal_width double, category string");
 
